@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionaire Project</title>
+    <link href="./index.css" rel="stylesheet"/>
+    <link rel="icon" href="./images.png"/>
+</head>
+<body>
+    <main id="main">
+        <heading><h1 id="heading">Questionaire</h1></heading>
+        <h3 id="subheading"> * Student Information</h3>
+        <form id="form" onsubmit="jsFunction()">
+            <h3>Name: <input type="text" name="Student Name"></h3>
+            <h3>Email Id:  <input type="text" name="Student Email Id"></h3>
+            <h3>Password:  <input type="password" name="Student Password"></h3>
+            <h3>Gender: <input type="radio" name="gender" value="male"/> Male
+                        <input type="radio" name="gender" value="female"/>Female
+                        <input type="radio" name="gender" value="other"/> Other</h3>
+            <h3>Location:<select name="city">
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Mumbai">Mumbai</option>
+            </select></h3>
+            <h3>Address: <textarea name="address" rows="10" cols="50" >Write your address...</textarea></h3>
+            <input  type="submit" name="submit" value="submit"/>
+        </form>
+    </main>
+</body>
+</html>

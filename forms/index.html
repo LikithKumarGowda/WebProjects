@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" href="./image123.webp"/>
+</head>
+<body>
+    <form action="marquee.html" name="f" method="post" target="_blank">
+
+        <label>Username</label>
+        <input type="text" required name="un" size="20" maxlength="20" placeholder="Enter valid Username"/><br>
+        
+        <label>Password</label>
+        <input type="password" name="pw"/><br>
+        
+        <label>Email Id</label>
+        <input type="email" name="e"/><br>
+        
+        <label>Url</label>
+        <input type="url" name="url"/><br>
+        
+        <input type="file" name="f" /><br>
+        
+        <input type="date" name="d"/><br>
+        
+        <input type="number" name="n"/><br>
+        
+        <label>Select your Subject</label>
+        <input type="checkbox" name="c1">Java
+        <input type="checkbox" name="c2">Python
+        <input type="checkbox" name="c3">Html
+        <input type="checkbox" name="c4">SQL
+        <br>
+        
+        
+        <fieldset>
+            <legend align="center" >Select your Gender</legend>
+            <input type="radio" name="Male">Male
+            <input type="radio" name="Female">Female
+            <input type="radio" name="other">other
+        </fieldset>
+        <br>
+        
+        
+        <textarea rows="10" cols="50" >Write Your Comments</textarea><br>
+        
+        
+        <select multiple>
+            <optgroup label="Select your State">
+                <option>Karnataka</option>
+                <option>Kashmir</option>
+                <option>Kerala</option>
+                <option>AP</option>
+                <option>UP</option>
+                <option>MP</option>
+            </optgroup>
+            <br>
+            <optgroup label="Select your favourite color">
+                <option >Red</option>
+                <option >Blue</option>
+                <option >Green</option>
+            </optgroup>
+        </select>
+        <br>
+        
+        <input type="submit" name="s" value="login"/>
+        <input type="reset" name="reset"/>
+        <input type="button" name="b" value="signup">
+        <button>Click</button>
+    </form>
+    
+</body>
+</html>

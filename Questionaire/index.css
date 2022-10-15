@@ -1,0 +1,32 @@
+body {
+  background-color: lightskyblue;
+}
+#heading {
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  color: darkblue;
+  border: 20px solid rebeccapurple;
+  padding: 10px 10px 10px 10px;
+  offset: 5px;
+  offset-anchor: 5px;
+}
+#subheading {
+  text-align: left;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: royalblue;
+  border: 10px solid rebeccapurple;
+}
+#form {
+  text-align: center;
+}
+h3 {
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: slateblue;
+}
